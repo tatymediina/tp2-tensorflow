@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Matrices con TensorFlow.js - Versión Async</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.14.0/dist/tf.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <h2>Operaciones con Matrices Aleatorias (TF.js)</h2>
+
+  <label>Filas: <input type="number" id="filas" value="2" min="1"></label>
+  <label>Columnas: <input type="number" id="columnas" value="3" min="1"></label>
+  <button onclick="calcular()">Calcular</button>
+
+  <h3>Resultados:</h3>
+  <pre id="resultado"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
